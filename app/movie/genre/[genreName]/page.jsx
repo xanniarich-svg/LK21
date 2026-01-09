@@ -14,8 +14,8 @@ export async function generateMetadata({ params }) {
   const genre = genres.find(g => g.name.toLowerCase().replace(/\s/g, '-') === genreName);
   const title = genre?.name || 'Unknown';
 
-  const pageUrl = `https://TubiMovie.netlify.app/movie/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/55030534731_a799877959_b.jpg';
+  const pageUrl = `https://lk21movie.netlify.app/movie/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg';
 
   return {
     title: `TubiMovie - ${title} Movies`,

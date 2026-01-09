@@ -10,11 +10,11 @@ export const metadata = {
   openGraph: {
     title: 'LK21 | Complete Movie & TV Series Database',
     description: 'Your ultimate destination for movies, TV series, actor profiles, and streaming information. Explore genres, yearly archives, and top rankings.',
-    url: 'https://LK21.netlify.app',
+    url: 'https://LK21Movie.netlify.app',
     siteName: 'LK21',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/55030179862_6b7e3a8c20_b.jpg',
+        url: 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg',
         width: 1200,
         height: 630,
         alt: 'LK21 - Complete Movie Database',
@@ -29,7 +29,7 @@ export const metadata = {
     creator: '@WatchStream123',
     title: 'LK21 | Complete Movie & TV Series Database',
     description: 'Explore 10,000+ movies, 5,000+ TV series, actor profiles, and streaming guides on LK21.',
-    images: ['https://live.staticflickr.com/65535/55030179862_6b7e3a8c20_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg'],
   },
   // Tambahkan tag meta eksplisit untuk Facebook
   other: {
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
 	  <head>
         {/* Tag verifikasi Google Search Console */}
-        <meta name="google-site-verification" content="HgmQ846IyLsW8oPdi-wcCUM7VatzphTdcpFPOX-CcNo" />
+        <meta name="google-site-verification" content="TRTCvA_QqXkUM0PnLWGy2GVhJjJsoZzU7D5kUmp8A0Q" />
         {/* Schema.org markup untuk Movie Database */}
         <script
           type="application/ld+json"
@@ -52,8 +52,8 @@ export default function RootLayout({ children }) {
               "@type": "MovieDatabase",
               "name": "LK21",
               "description": "Complete movie and TV series database with streaming information",
-              "url": "https://LK21.netlify.app",
-              "logo": "https://live.staticflickr.com/65535/55030179862_6b7e3a8c20_b.jpg",
+              "url": "https://LK21Movie.netlify.app",
+              "logo": "https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg",
               "sameAs": [
                 "https://LK21.netlify.app"
               ]
@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
             </main>
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
               {/* Tempatkan div Native Banner di sini, sebelum Footer */}
-              <div id="container-ea6c319bed501f507571d6db10437955"></div>
+              <div id="container-c688e187bdc29aee0edb83d877a2dcd8"></div>
               <Footer />
             </footer>
           </div>

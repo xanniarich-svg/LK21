@@ -11,7 +11,7 @@ export default function About() {
       <div className="bg-gradient-to-b from-purple-900/50 to-slate-900 py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-3 text-orange-400">
-            LK21 - Ultimate Movie & TV Series Database - Your Complete Cinema Guide
+            LK21 Ultimate Movie & TV Series Database Your Complete Cinema Guide
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
             Your comprehensive guide to 10,000+ movies, 5,000+ TV series, actor profiles, genre pages, and streaming information.
@@ -40,7 +40,7 @@ export default function About() {
           <section className="mb-16">
             <div className="text-center mb-12">
               <img
-                src="https://live.staticflickr.com/65535/55030179862_6b7e3a8c20_b.jpg"
+                src="https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg"
                 alt="Movie reels and cinema tickets - Ultimate movie database for film enthusiasts"
                 width={1024}
                 height={416}

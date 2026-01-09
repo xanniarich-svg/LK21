@@ -103,7 +103,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: tvShowData.name,
       description: tvShowData.overview,
-      url: `https://TubiMovie.netlify.app/tv-show/${slug}`,
+      url: `https://lk21movie.netlify.app/tv-show/${slug}`,
       siteName: 'TubiMovie',
       images: [{ url: socialImage, width: 1200, height: 630, alt: socialImageAlt }],
       locale: 'en_US',
