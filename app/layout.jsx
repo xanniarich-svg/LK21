@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
               "url": "https://LK21Movie.netlify.app",
               "logo": "https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg",
               "sameAs": [
-                "https://LK21.netlify.app"
+                "https://LK21Movie.netlify.app"
               ]
             })
           }}
