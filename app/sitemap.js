@@ -1,5 +1,5 @@
 // app/sitemap.js - VERSI DIPERBAIKI DAN LENGKAP
-const BASE_URL = 'https://LK21Movie.netlify.app';
+const BASE_URL = 'https://lk21movie.netlify.app';
 
 export default async function sitemap() {
   console.log('🎬 Generating dynamic sitemap for LK21...');

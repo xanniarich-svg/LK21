@@ -18,13 +18,13 @@ export async function generateMetadata({ params }) {
   const imageUrl = 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg';
 
   return {
-    title: `TubiMovie - ${title} Movies`,
-    description: `Find and watch the best ${title} movies for free on TubiMovie.`,
+    title: `LK21 - ${title} Movies`,
+    description: `Find and watch the best ${title} movies for free on LK21.`,
     openGraph: {
-      title: `TubiMovie - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on TubiMovie.`,
+      title: `LK21 - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on LK21.`,
       url: pageUrl,
-      siteName: 'TubiMovie',
+      siteName: 'LK21',
       images: [
         {
           url: imageUrl,
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `TubiMovie - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on TubiMovie.`,
+      title: `LK21 - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on LK21.`,
       images: [imageUrl],
     },
     other: {

@@ -39,8 +39,8 @@ export async function generateMetadata({ params }) {
   if (CATEGORIES.includes(slug)) {
     const title = slug.replace(/_/g, ' ').toUpperCase();
     return {
-      title: `TubiMovie - ${title} Movies`,
-      description: `Explore the ${title} movies collection on TubiMovie.`,
+      title: `LK21 - ${title} Movies`,
+      description: `Explore the ${title} movies collection on LK21.`,
     };
   }
 
@@ -51,8 +51,8 @@ export async function generateMetadata({ params }) {
     const genres = await getMovieGenres();
     const genreName = genres.find(g => g.id == genreId)?.name || 'Unknown';
     return {
-      title: `TubiMovie - ${genreName} Movies`,
-      description: `Discover ${genreName} movies on TubiMovie.`,
+      title: `LK21 - ${genreName} Movies`,
+      description: `Discover ${genreName} movies on LK21.`,
     };
   }
 
@@ -83,7 +83,7 @@ export async function generateMetadata({ params }) {
   // Jika data tidak ditemukan, kembalikan metadata dasar
   if (!movieData) {
     return {
-      title: 'TubiMovie',
+      title: 'LK21',
       description: 'Watch Movie Stream Movies and Tv Series Free.',
     };
   }
@@ -99,13 +99,13 @@ export async function generateMetadata({ params }) {
   const socialImageAlt = `${movieData.title} poster`;
 
   return {
-    title: `TubiMovie - ${movieData.title}`,
+    title: `LK21 - ${movieData.title}`,
     description: movieData.overview || `Detailed information for movie ${movieData.title}`,
     openGraph: {
       title: movieData.title,
       description: movieData.overview || `Detailed information for movie ${movieData.title}`,
       url: `https://lk21movie.netlify.app/movie/${slug}`,
-      siteName: 'TubiMovie',
+      siteName: 'LK21',
       images: [
         {
           url: socialImage,

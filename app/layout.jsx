@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import AdsterraLayoutWrapper from '../components/AdsterraLayoutWrapper';
+import AdBanner from '../components/ads/AdBanner'; // ✅ Komponen baru untuk banner
 
 export const metadata = {
   title: 'LK21 | Watch Movies, Stream TV Series Free - Complete Movie Database',
@@ -10,7 +11,7 @@ export const metadata = {
   openGraph: {
     title: 'LK21 | Complete Movie & TV Series Database',
     description: 'Your ultimate destination for movies, TV series, actor profiles, and streaming information. Explore genres, yearly archives, and top rankings.',
-    url: 'https://LK21Movie.netlify.app',
+    url: 'https://lk21movie.netlify.app',
     siteName: 'LK21',
     images: [
       {
@@ -52,10 +53,10 @@ export default function RootLayout({ children }) {
               "@type": "MovieDatabase",
               "name": "LK21",
               "description": "Complete movie and TV series database with streaming information",
-              "url": "https://LK21Movie.netlify.app",
+              "url": "https://lk21movie.netlify.app",
               "logo": "https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg",
               "sameAs": [
-                "https://LK21Movie.netlify.app"
+                "https://lk21movie.netlify.app"
               ]
             })
           }}
@@ -67,9 +68,24 @@ export default function RootLayout({ children }) {
             <header className="w-full max-w-7xl mx-auto px-4 py-4 sticky top-0 z-50 bg-slate-900 shadow-lg">
               <Navbar />
             </header>
+            
+            {/* ✅ Banner 728x90 di bawah navbar */}
+            <div className="w-full bg-slate-900 py-2">
+              <div className="max-w-7xl mx-auto px-4 flex justify-center">
+                <AdBanner 
+                  adId="728x90_banner_navbar"
+                  scriptKey="3ae0671657fb6bd65f70d47bd19e37b1"
+                  height={90}
+                  width={728}
+                  className="rounded-lg overflow-hidden shadow-lg"
+                />
+              </div>
+            </div>
+            
             <main className="flex-grow w-full max-w-7xl mx-auto px-4 py-8 mt-2">
               {children}
             </main>
+            
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
               {/* Tempatkan div Native Banner di sini, sebelum Footer */}
               <div id="container-c688e187bdc29aee0edb83d877a2dcd8"></div>
