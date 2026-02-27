@@ -41,7 +41,7 @@ export async function generateMetadata({ params }) {
   const title = genre?.name || 'Unknown';
   
   const pageUrl = `https://lk21movie.netlify.app/tv-show/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/55031700113_48357852dd_b.jpg';
+  const imageUrl = 'https://live.staticflickr.com/65535/54791981397_063e679112_b.jpg';
 
   return {
     title: `LK21 - ${title} TV Series`,
