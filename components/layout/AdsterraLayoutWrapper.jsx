@@ -14,11 +14,11 @@ export default function AdsterraLayoutWrapper({ children, countryCode }) {
             optimizer.setGeo(countryCode);
         }
 
-        const nativeContainer = document.getElementById('container-be9a37fc1a7ebc8a10a09ad77bfebf78');
+        const nativeContainer = document.getElementById('container-c688e187bdc29aee0edb83d877a2dcd8');
 
         const visibleAds = [
-            { id: 'native', src: '//fundingfashioned.com/be9a37fc1a7ebc8a10a09ad77bfebf78/invoke.js' },
-            { id: 'social', src: '//fundingfashioned.com/b7/ae/b5/b7aeb5f7577a965d2295a786f64fe3aa.js' }
+            { id: 'native', src: '//fundingfashioned.com/c688e187bdc29aee0edb83d877a2dcd8/invoke.js' },
+            { id: 'social', src: '//fundingfashioned.com/a1/f4/3a/a1f43ad926c67a3de96702e8b92dfdd9.js' }
         ];
 
         visibleAds.forEach(s => {
@@ -36,9 +36,9 @@ export default function AdsterraLayoutWrapper({ children, countryCode }) {
         });
 
         setTimeout(() => {
-            if(document.querySelector(`script[src*="22b52ea945e087056d7ef99d6a39813a"]`)) return;
+            if(document.querySelector(`script[src*="bd998872b03517b447721f2fd0ded07a"]`)) return;
             const popunder = document.createElement('script');
-            popunder.src = '//fundingfashioned.com/22/b5/2e/22b52ea945e087056d7ef99d6a39813a.js'; 
+            popunder.src = '//fundingfashioned.com/bd/99/88/bd998872b03517b447721f2fd0ded07a.js'; 
             document.head.appendChild(popunder);
         }, 3500);
 

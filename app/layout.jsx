@@ -99,7 +99,7 @@ export default async function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_header"
-                  scriptKey="29ac0016876e4e46a9e1233dc926c568"
+                  scriptKey="3ae0671657fb6bd65f70d47bd19e37b1"
                   height={90} 
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -112,7 +112,7 @@ export default async function RootLayout({ children }) {
             </main>
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
-              <div id="container-4a5705cdb7bbadd6a7add349c1b9a244"></div>
+              <div id="container-c688e187bdc29aee0edb83d877a2dcd8"></div>
               <Footer />
             </footer>
           </div>
